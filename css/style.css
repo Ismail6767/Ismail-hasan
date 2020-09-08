@@ -1,0 +1,53 @@
+.navbar {
+  border-bottom: 3px #008ed6 solid;
+  background: #292b2c;
+  opacity: 0.8; }
+
+body {
+  background: #333;
+  color: #fff; }
+
+#homebar-seation {
+  background: url("../img/home.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed; }
+  #homebar-seation .dark-overly {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 700px; }
+  #homebar-seation .fa {
+    background: #fff;
+    color: #008ed6;
+    font-size: 27px;
+    padding: 4px;
+    border-radius: 5px; }
+  #homebar-seation .card-form {
+    opacity: 0.8; }
+  #homebar-seation .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px; }
+
+#explor-main-section .fa {
+  font-size: 27px;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px; }
+
+#create-main-Sesstion .fa {
+  font-size: 27px;
+  background: #fff;
+  color: #008ed6;
+  padding: 5px;
+  border-radius: 5px; }
+
+#sheer-main-Sesstion .fa {
+  font-size: 27px;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px; }
+
+@media (max-width: 668px) {
+  #homebar-seation h1 {
+    font-size: 38px; } }
